@@ -1,0 +1,54 @@
+/* Start General Style */
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 20px;
+  color: #3B7575;
+  direction: rtl;
+  font-family: "Amiri", serif !important; }
+
+/* End General Style */
+/* start UTILITIES Style */
+.active-link {
+  border-bottom: 3px solid #EBA756; }
+
+hr {
+  background-color: #EBA756;
+  height: 2px;
+  width: 150px;
+  margin-top: 0; }
+
+.headline {
+  color: #3B7575;
+  font-size: 50px;
+  font-weight: bold; }
+
+.image {
+  overflow: hidden;
+  background-position: center;
+  background-size: cover; }
+
+span.see-more {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  background-color: white;
+  border: none;
+  color: #EBA756;
+  padding: 5px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0.5px 1px #8d8d8d;
+  cursor: pointer; }
+  span.see-more:hover {
+    transform: scale(1.03, 1.03); }
+
+a {
+  text-decoration: none !important; }
+
+/* End UTILITIES Style */
+
+/*# sourceMappingURL=General%20styles.css.map */
