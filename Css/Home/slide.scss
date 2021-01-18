@@ -1,3 +1,4 @@
+
 /*Start Slide Style*/
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
 $mainColor:#3B7575;
@@ -6,9 +7,10 @@ $mainFontFamily:"Amiri",serif;
 $mainFontSize:20px;
 
 
-
-
 .slider{
+    background-image: url('../../Images/logo3.png');
+    height: 640px;
+    background-size:cover;
     overflow: hidden;  
     padding:150px 0;
     color:#12292D;
@@ -40,10 +42,19 @@ $mainFontSize:20px;
         }
     }
     .org-info{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         h2{
             width:450px;
             color:white;
@@ -69,4 +80,3 @@ $mainFontSize:20px;
 }
 
 /*End Slide Style*/
-

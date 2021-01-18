@@ -1,3 +1,4 @@
+
 /* Start General Style */
 
 $mainColor:#5C8C8C;
@@ -7,7 +8,8 @@ $mainFontSize:20px;
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 body {
 	font-size: $mainFontSize !important;
@@ -68,6 +70,22 @@ body {
 					&:focus {
 						border: 1px solid $accentColor;
 					}
+				}
+				::-webkit-input-placeholder {
+					opacity: 0.4;
+					color: $mainColor;
+				}
+				::-moz-placeholder {
+					opacity: 0.4;
+					color: $mainColor;
+				}
+				:-ms-input-placeholder {
+					opacity: 0.4;
+					color: $mainColor;
+				}
+				::-ms-input-placeholder {
+					opacity: 0.4;
+					color: $mainColor;
 				}
 				::placeholder {
 					opacity: 0.4;

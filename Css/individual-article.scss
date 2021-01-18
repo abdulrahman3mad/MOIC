@@ -1,5 +1,4 @@
 
-
 /* start general style*/
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
 $mainColor:#3B7575;
@@ -18,8 +17,11 @@ body{
 
 article.individual-article{
     margin-top:50px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     
     /*start article header*/
     .article-header{
@@ -37,6 +39,8 @@ article.individual-article{
     section.info{
         margin-top:20px;    
     .writer-info{
+        display:-webkit-inline-box;
+        display:-ms-inline-flexbox;
         display:inline-flex;
         border:1px solid grey;
         border-radius: 4px;
@@ -63,6 +67,8 @@ article.individual-article{
     }
 
     ul.share-list{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         li{
             a{

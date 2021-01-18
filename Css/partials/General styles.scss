@@ -1,3 +1,4 @@
+
 /* Start General Style */
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
 $mainColor:#3B7575;
@@ -8,7 +9,8 @@ $mainFontSize:20px;
 *{
     padding:0;
     margin:0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 body{
     font-size: $mainFontSize;
@@ -44,6 +46,8 @@ hr{
 }
 span.see-more {
     display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 30px auto;
     background-color: white;
@@ -51,10 +55,13 @@ span.see-more {
     color: $accentColor;
     padding: 5px 20px;
     border-radius: 15px;
-    box-shadow: 0 0.5px 1px rgb(141, 141, 141);
+    -webkit-box-shadow: 0 0.5px 1px rgb(141, 141, 141);
+            box-shadow: 0 0.5px 1px rgb(141, 141, 141);
     cursor: pointer;
         &:hover{
-            transform: scale(1.03,1.03);
+            -webkit-transform: scale(1.03,1.03);
+                -ms-transform: scale(1.03,1.03);
+                    transform: scale(1.03,1.03);
         }
     
 }

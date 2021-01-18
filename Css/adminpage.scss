@@ -1,0 +1,20 @@
+/* Start General Style */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+$mainColor:#3B7575;
+$accentColor:#EBA756;
+$mainFontFamily:"Amiri",serif;
+$mainFontSize:20px;
+
+body{
+    direction: rtl;
+}
+/* End General Style*/
+
+
+/*Start aside style*/
+aside{
+    display: flex;
+    background-color:$mainColor;
+    align-items: flex-start;
+}
+/*End aside style*/
