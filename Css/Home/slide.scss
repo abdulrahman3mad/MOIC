@@ -9,8 +9,10 @@ $mainFontSize:20px;
 
 .slider{
     background-image: url('../../Images/logo3.png');
-    height: 640px;
+    height: 680px;
+    background-position: center -180px;
     background-size:cover;
+    background-repeat: no-repeat;
     overflow: hidden;  
     padding:150px 0;
     color:#12292D;

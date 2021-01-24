@@ -2,11 +2,6 @@
 .gallery {
   overflow: hidden;
   padding-top: 30px; }
-  .gallery .gallery-header {
-    padding: 0 30px; }
-  .gallery .hr-gallery-style {
-    margin-right: 32px;
-    margin-bottom: 50px; }
   .gallery .campigns {
     overflow: hidden; }
     .gallery .campigns .col-12, .gallery .campigns .col-md-5 {
@@ -14,22 +9,27 @@
     .gallery .campigns .campign {
       border: 2px solid #7c7c7c;
       margin-bottom: 40px;
-      height: 354px;
+      height: 250px;
       overflow: hidden;
       cursor: pointer;
-      transition: all 0.4s;
-      /*start campign all ima*/
-      /*end campign all ima*/ }
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s; }
       .gallery .campigns .campign:hover {
+        -webkit-box-shadow: 1px 1px 5px #cecece;
         box-shadow: 1px 1px 5px #cecece;
+        -webkit-transform: scale(1.03, 1.03);
+        -ms-transform: scale(1.03, 1.03);
         transform: scale(1.03, 1.03); }
       .gallery .campigns .campign .campign-images {
         height: 100%;
         display: grid;
+        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr; }
       .gallery .campigns .campign .individual-image {
-        height: 354px; }
+        height: 250px; }
       .gallery .campigns .campign .item-image {
         background-size: cover;
         height: 100%;
@@ -37,17 +37,16 @@
         width: 100%; }
       .gallery .campigns .campign .image {
         padding: 1px;
-        height: 177px; }
+        height: 125px; }
         .gallery .campigns .campign .image .img {
           height: 100%;
           background-size: cover;
           background-position: center center; }
 
-.transformClass {
-  transform: scale3d(1.2, 1.2, 1.2); }
+.campign:not(:nth-child(n+4)) {
+  margin-right: 40px; }
 
-@media (max-width: 600px) {
-  .Gallery {
-    padding: 0 60px !important; } }
+.campign:first-child {
+  margin-right: 0 !important; }
 
 /*# sourceMappingURL=Gallery.css.map */

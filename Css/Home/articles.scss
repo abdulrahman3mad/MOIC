@@ -10,18 +10,8 @@ $mainFontSize:20px;
 /* Start Articles Style */
 .articles-style {
 	padding:150px 0;
-
-
-	.articles-header{
-		padding:0 42px;
-	}
-	.hr-article-style{
-		margin-right:45px !important;
-		margin-bottom:50px;
-	}
-
 	.articles {
-		padding: 0 15px;
+		overflow: hidden;
 		.article {
 			margin-bottom:40px;
 			border:1px solid rgb(184, 184, 184);
@@ -66,13 +56,9 @@ $mainFontSize:20px;
 			}
 
 		}
+
 	}
 }
 /* End Articles Style */
 
 
-@media (max-width:600px){
-	.articles{
-		padding: 0 60px !important;
-	}
-}

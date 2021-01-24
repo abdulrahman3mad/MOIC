@@ -9,15 +9,6 @@ $mainFontSize:20px;
 .gallery{
     overflow: hidden;
     padding-top:30px;
-
-    .gallery-header{
-       padding:0 30px;
-    }
-    .hr-gallery-style{
-		margin-right: 32px;
-		margin-bottom:50px;
-    }
-    
     .campigns{
        overflow: hidden;
       .col-12, .col-md-5{
@@ -26,7 +17,7 @@ $mainFontSize:20px;
     .campign{
          border:2px solid rgb(124, 124, 124);
          margin-bottom: 40px;
-         height:354px;
+         height:250px;
          overflow: hidden;
          cursor: pointer;
          -webkit-transition: all 0.4s;
@@ -39,36 +30,18 @@ $mainFontSize:20px;
                 -ms-transform: scale(1.03,1.03);
                     transform: scale(1.03,1.03);
          }
-         /*start campign all ima*/
+
          .campign-images{
             height:100%;
-            display:-ms-grid;
             display:grid;
             -ms-grid-columns: 1fr 1fr;
             grid-template-columns: 1fr 1fr;
             -ms-grid-rows: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
          }
-         .campign-images > *:nth-child(1){
-                -ms-grid-row:1;
-                -ms-grid-column:1;
-         }
-         .campign-images > *:nth-child(2){
-                -ms-grid-row:1;
-                -ms-grid-column:2;
-         }
-         .campign-images > *:nth-child(3){
-                -ms-grid-row:2;
-                -ms-grid-column:1;
-         }
-         .campign-images > *:nth-child(4){
-                -ms-grid-row:2;
-                -ms-grid-column:2;
-         }
-         /*end campign all ima*/
 
          .individual-image{
-            height:354px;
+            height:250px;
          }
          .item-image{
             background-size:cover;
@@ -78,7 +51,7 @@ $mainFontSize:20px;
          }
          .image{
             padding:1px;
-            height:177px;
+            height:125px;
             .img{
                height:100%;
                background-size:cover;
@@ -90,15 +63,9 @@ $mainFontSize:20px;
    }
 }
 
-
-
-.transformClass{
-   -webkit-transform:scale3d(1.2, 1.2, 1.2);
-           transform:scale3d(1.2, 1.2, 1.2);  
+.campign:not(:nth-child(n+4)){
+   margin-right:40px;
 }
-
-@media (max-width:600px){
-	.Gallery{
-		padding: 0 60px !important;
-	}
+.campign:first-child{
+   margin-right:0 !important
 }

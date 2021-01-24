@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preload" as="style" href="css/bootstrap.min.css" onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" href="css/all.min.css" onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" href="css/partials/General styles.css" onload=" this.rel='stylesheet'">
+    <link rel="preload" as="style" href="css/Home/slide.scss" onload=" this.rel='stylesheet'">
+    <link rel="preload" as="style" href="css/adminpage.css" onload=" this.rel='stylesheet'">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-image">
+                    <img src="images/Moic-logo.png" alt="Moic logo">
+                </div>
+                <div class="profile-image">
+                    <img src="images/profile-image.png" alt="profile image">
+                    <!--user profile image   [what written is just an exambel]-->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <aside>
+        <ul class="list-unstyled">
+            <li>الرئيسية</li>
+            <li>المعرض</li>
+            <li>المقالات</li>
+        </ul>
+    </aside>
+
+
+
+    <section class="content">
+        <!--page header-->
+        <header class="headline">
+            الرئيسية
+        </header>
+        <hr>
+        <div class="">
+            <!--Start slider-->
+            <section class="slider">
+                <div class="container">
+                    <!--comment: full image [MOIC image]-->
+                    <div id="slider_images" class="carousel slide" data-ride="carousel">
+                        <!--comment: full image [MOIC image]-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            </div>
+                            <div class="carousel-item">
+                                <div class="org-info">
+                                    <h2>
+                                        مويك هي نموذج
+                                        محاكاة منظمة التعاون الإسلام
+                                        نشاط طلابى بجامعة عين شمس
+                                    </h2>
+                                    <a href="WhoAreWe.html"><button class="know-us">اعرف عنا</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev carousel" href="#slider_images" role="button" data-slide="prev">
+                            <i class="fas fa-angle-left" aria-hidden="true"></i> </a>
+                        <a class="carousel-control-next carousel" href="#slider_images" role="button" data-slide="next">
+                            <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--End Slide-->
+
+        </div>
+
+    </section>
+    <section>
+        <form action="" method="POST">
+            <button class="save-button" type="submit/"></button>
+        </form>
+        <a href="" class="cancel"> <button class="save-button" type="submit/"></button>
+        </a>
+    </section>
+</body>
+
+</html>

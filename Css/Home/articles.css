@@ -4,13 +4,8 @@
 /* Start Articles Style */
 .articles-style {
   padding: 150px 0; }
-  .articles-style .articles-header {
-    padding: 0 42px; }
-  .articles-style .hr-article-style {
-    margin-right: 45px !important;
-    margin-bottom: 50px; }
   .articles-style .articles {
-    padding: 0 15px; }
+    overflow: hidden; }
     .articles-style .articles .article {
       margin-bottom: 40px;
       border: 1px solid #b8b8b8;
@@ -48,8 +43,5 @@
           margin-bottom: 8px; }
 
 /* End Articles Style */
-@media (max-width: 600px) {
-  .articles {
-    padding: 0 60px !important; } }
 
 /*# sourceMappingURL=articles.css.map */

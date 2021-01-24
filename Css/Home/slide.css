@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap");
 .slider {
   background-image: url("../../Images/logo3.png");
-  height: 640px;
+  height: 680px;
+  background-position: center -180px;
   background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
   padding: 150px 0;
   color: #12292D;
@@ -27,9 +29,18 @@
       padding: 0 40px;
       opacity: 0.7; }
   .slider .org-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .slider .org-info h2 {
       width: 450px;
