@@ -13,6 +13,7 @@ $mainFontSize:20px;
             box-sizing: border-box;
 }
 body{
+    background-color:whitesmoke !important;
     font-size: $mainFontSize;
     color:$mainColor;
     direction: rtl;

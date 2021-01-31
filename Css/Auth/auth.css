@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -56,6 +57,18 @@ body {
           width: 300px; }
           .body-content .form-container form fieldset input:focus {
             border: 1px solid #EBA756; }
+        .body-content .form-container form fieldset ::-webkit-input-placeholder {
+          opacity: 0.4;
+          color: #5C8C8C; }
+        .body-content .form-container form fieldset ::-moz-placeholder {
+          opacity: 0.4;
+          color: #5C8C8C; }
+        .body-content .form-container form fieldset :-ms-input-placeholder {
+          opacity: 0.4;
+          color: #5C8C8C; }
+        .body-content .form-container form fieldset ::-ms-input-placeholder {
+          opacity: 0.4;
+          color: #5C8C8C; }
         .body-content .form-container form fieldset ::placeholder {
           opacity: 0.4;
           color: #5C8C8C; }

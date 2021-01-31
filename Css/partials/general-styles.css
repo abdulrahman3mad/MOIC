@@ -7,6 +7,7 @@
   box-sizing: border-box; }
 
 body {
+  background-color: whitesmoke !important;
   font-size: 20px;
   color: #3B7575;
   direction: rtl;
@@ -57,4 +58,4 @@ a {
 
 /* End UTILITIES Style */
 
-/*# sourceMappingURL=General%20styles.css.map */
+/*# sourceMappingURL=general-styles.css.map */

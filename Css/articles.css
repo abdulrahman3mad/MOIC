@@ -3,10 +3,11 @@
 /* end general style*/
 /* Start Articles Style */
 .articles-style {
-  padding: 150px 0; }
+  padding: 40px 0; }
   .articles-style .articles {
     overflow: hidden; }
     .articles-style .articles .article {
+      margin-left: 50px;
       margin-bottom: 40px;
       border: 1px solid #b8b8b8;
       box-shadow: 2px 2px 5px #e0e0e0;

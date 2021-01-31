@@ -14,7 +14,7 @@ $mainFontSize:20px;
     background-size:cover;
     background-repeat: no-repeat;
     overflow: hidden;  
-    padding:150px 0;
+    padding:80px 0;
     color:#12292D;
     font-size: $mainFontSize+5;
 
@@ -47,8 +47,7 @@ $mainFontSize:20px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+
             -ms-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: center;
@@ -63,7 +62,7 @@ $mainFontSize:20px;
             text-align: center;
             line-height: 1.5;
             margin:auto;
-            font-size:1.8em
+            font-size:1.6em
         }
         button{
             cursor: pointer;

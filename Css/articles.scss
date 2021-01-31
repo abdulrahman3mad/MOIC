@@ -9,10 +9,11 @@ $mainFontSize:20px;
 
 /* Start Articles Style */
 .articles-style {
-	padding:150px 0;
+	padding:40px 0;
 	.articles {
 		overflow: hidden;
 		.article {
+			margin-left:50px;
 			margin-bottom:40px;
 			border:1px solid rgb(184, 184, 184);
 			box-shadow:2px 2px 5px rgb(224, 224, 224) ;
@@ -54,9 +55,7 @@ $mainFontSize:20px;
 					margin-bottom:8px
 				}
 			}
-
 		}
-
 	}
 }
 /* End Articles Style */

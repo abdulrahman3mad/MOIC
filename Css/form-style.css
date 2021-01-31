@@ -26,6 +26,8 @@ body {
     outline: none;
     border-radius: 5px;
     border: 0.5px solid #9c9c9c; }
+    .form input:not([type="file"]):focus {
+      border: 0.5px solid #EBA756; }
   .form select {
     border: 0.5px solid #9c9c9c;
     outline: none;

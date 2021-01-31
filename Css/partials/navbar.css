@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap");
 nav {
   font-size: 1.2em;
+  -webkit-box-shadow: 0.5px 0.5px 5px #a0a0a0;
   box-shadow: 0.5px 0.5px 5px #a0a0a0;
   background-color: white;
   padding-top: 0 !important;
@@ -13,8 +14,14 @@ nav {
   nav ul.navbar-nav {
     opacity: 0.9;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around; }
     nav ul.navbar-nav li {
       padding: 10px;

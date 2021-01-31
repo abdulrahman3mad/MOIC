@@ -8,7 +8,10 @@ body {
 /*start article style*/
 article.individual-article {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   /*start article header*/
   /*end article header*/ }
@@ -21,6 +24,8 @@ article.individual-article {
   article.individual-article .article-header section.info {
     margin-top: 20px; }
     article.individual-article .article-header section.info .writer-info {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
       border: 1px solid grey;
       border-radius: 4px;
@@ -38,6 +43,8 @@ article.individual-article {
       article.individual-article .article-header section.info .writer-info .info p {
         font-size: 0.7em; }
     article.individual-article .article-header section.info ul.share-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex; }
       article.individual-article .article-header section.info ul.share-list li {
         margin-right: 20px; }

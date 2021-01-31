@@ -6,17 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="discription" content="">
     <title> MOIC </title>
-    <link rel="stylesheet" href="css/partials/navbar.css">
-    <link rel="stylesheet" href="css/partials/footer.css">
-    <link rel="stylesheet" href="css/Home/articles.css">
-    <link rel="stylesheet" href="css/Home/slide.css">
-    <link rel="stylesheet" href="css/Home/Gallery.css">
-    <link rel="stylesheet" href="css/partials/General styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/Partials/navbar.css">
+    <link rel="stylesheet" href="Css/Partials/footer.css">
+    <link rel="stylesheet" href="Css/articles.css">
+    <link rel="stylesheet" href="Css/slide.css">
+    <link rel="stylesheet" href="Css/gallery.css">
+    <link rel="stylesheet" href="Css/Partials/general-styles.css">
+    <link rel="stylesheet" href="Css/Partials/bootstrap.min.css">
 </head>
 
 <body>
+    <!--Start header-->
+    <header class="home-header">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container">
+                <a class="navbar-brand text-center" href="home.html"><img src="Images/Moic-logo.png" alt="Logo" />
+                </a>
+                <span class="logo-text"></span>
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center " id="navbarNav">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item section-elements ">
+                            <a class="nav-link Home active-link " href="home.html">الرئيسية</a>
+                        </li>
+
+                        <li class="nav-item section-elements">
+                            <a class="nav-link" href="articles.html">مقالاتنا</a>
+                        </li>
+
+                        <li class="nav-item publish section-elements">
+                            <a class="nav-link" href="gallery.html">المعرض</a>
+                        </li>
+
+                        <li class="nav-item publish section-elements">
+                            <a class="nav-link" href="write-article.html">اكتب</a>
+                        </li>
+                    </ul>
+
+                    <!--an anonymous user (doesn't login or signup yet)-->
+                    <ul class="list-unstyled  ">
+                        <li class="nav-item signup">
+                            <a class="nav-link" href="sign-up.html">إشتراك</a>
+                        </li>
+
+                    </ul>
+                    <!---->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End header-->
     <!--Start slider-->
     <section class="slider">
         <div class="container">
@@ -68,14 +112,54 @@
     <section class="articles-style">
         <div class="container">
             <header>
-                <h2 class="headline articles-header text-right">
+                <h1 class="headline articles-header text-right">
                     مقالاتنا
-                </h2>
+                </h1>
             </header>
             <hr class="hr-article-style">
             <section class="articles">
                 <div class="row ">
-                    <article class="article col-lg-5 col-md-12">
+                    <article class="article col-lg-3 col-md-12">
+                        <div class="row">
+                            <!--put article image here  !!!!-->
+                            <div class="article-image  col-12" style="background-image: url(Images/نبيل،-توفيق.jpg)">
+                            </div>
+
+                            <div class="article-info col-12">
+                                <span class=article-category>إصلاح</span>
+                                <!--put article category here  !!!!-->
+                                <header>
+                                    <h3 class="article-header">النبيل
+                                        <!--put article title here  !!!!-->
+                                        والعرَّاب:
+                                        جعلا الشباب
+                                        يقرأ
+                                    </h3>
+                                </header>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article col-lg-3 col-md-12">
+                        <div class="row">
+                            <!--put article image here  !!!!-->
+                            <div class="article-image  col-12" style="background-image: url(Images/نبيل،-توفيق.jpg)">
+                            </div>
+
+                            <div class="article-info col-12">
+                                <span class=article-category>إصلاح</span>
+                                <!--put article category here  !!!!-->
+                                <header>
+                                    <h3 class="article-header">النبيل
+                                        <!--put article title here  !!!!-->
+                                        والعرَّاب:
+                                        جعلا الشباب
+                                        يقرأ
+                                    </h3>
+                                </header>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article col-lg-3 col-md-12">
                         <div class="row">
                             <!--put article image here  !!!!-->
                             <div class="article-image  col-12" style="background-image: url(Images/نبيل،-توفيق.jpg)">

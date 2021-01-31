@@ -7,14 +7,14 @@ $mainFontSize:20px;
 
 
 .gallery{
-    overflow: hidden;
     padding-top:30px;
-    .campigns{
-       overflow: hidden;
+    text-align: center;
+    .campaigns{
+      overflow: hidden;
       .col-12, .col-md-5{
          padding:0;
       }
-    .campign{
+    .campaign{
          border:2px solid rgb(124, 124, 124);
          margin-bottom: 40px;
          height:250px;
@@ -31,7 +31,7 @@ $mainFontSize:20px;
                     transform: scale(1.03,1.03);
          }
 
-         .campign-images{
+         .campaign-images{
             height:100%;
             display:grid;
             -ms-grid-columns: 1fr 1fr;
@@ -62,10 +62,8 @@ $mainFontSize:20px;
      }
    }
 }
-
-.campign:not(:nth-child(n+4)){
-   margin-right:40px;
-}
-.campign:first-child{
-   margin-right:0 !important
+@media (min-width:700px){
+   .campaign{
+      margin-right:15px;
+   }
 }
