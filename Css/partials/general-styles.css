@@ -53,6 +53,35 @@ span.see-more {
     -ms-transform: scale(1.03, 1.03);
     transform: scale(1.03, 1.03); }
 
+.profile-icon {
+  position: relative;
+  cursor: pointer; }
+  .profile-icon .profile-dropdown-list {
+    background-color: white;
+    color: #3B7575;
+    font-weight: bold;
+    width: 200px;
+    align-items: flex-start;
+    padding: 10px;
+    z-index: 10;
+    box-shadow: 1px 1px 5px #939393;
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    left: 5px;
+    top: 50px; }
+    .profile-icon .profile-dropdown-list .user-name {
+      font-weight: bold;
+      font-size: 18px; }
+    .profile-icon .profile-dropdown-list hr {
+      height: 1px !important;
+      margin-bottom: 10px !important; }
+    .profile-icon .profile-dropdown-list li {
+      margin-bottom: 10px;
+      font-size: 16px; }
+      .profile-icon .profile-dropdown-list li a {
+        cursor: pointer; }
+
 a {
   text-decoration: none !important; }
 
