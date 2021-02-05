@@ -4,6 +4,27 @@
 /* Start Articles Style */
 .articles-style {
   padding: 40px 0; }
+  .articles-style form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px; }
+    .articles-style form fieldset {
+      color: #3B7575;
+      margin-left: 50px;
+      display: flex;
+      flex-direction: column; }
+      .articles-style form fieldset label {
+        font-weight: bold; }
+    .articles-style form button {
+      margin-top: 30px;
+      background-color: #63a3a3;
+      padding: 2px 12px;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      cursor: pointer; }
+      .articles-style form button:hover {
+        background-color: #4a8a8a; }
   .articles-style .articles {
     overflow: hidden; }
     .articles-style .articles .article {
