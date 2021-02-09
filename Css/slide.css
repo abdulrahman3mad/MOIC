@@ -1,7 +1,7 @@
 /*Start Slide Style*/
 @import url("https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap");
 .slider {
-  background-image: url("../../Images/logo3.png");
+  background-image: url("../Images/logo3.png");
   height: 680px;
   background-position: center -180px;
   background-size: cover;

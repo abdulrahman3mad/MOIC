@@ -8,7 +8,7 @@ body {
 
 .form {
   font-weight: bold;
-  margin: 50px; }
+  padding: 120px 0; }
   .form .write-header h1 {
     font-weight: bold; }
   .form hr {
@@ -41,6 +41,7 @@ body {
     margin-top: 30px;
     border-radius: 5px;
     padding: 5px 20px;
+    cursor: pointer;
     color: white; }
 
 /*# sourceMappingURL=form-style.css.map */

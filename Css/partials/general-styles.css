@@ -1,5 +1,6 @@
 /* Start General Style */
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200;300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -11,7 +12,7 @@ body {
   font-size: 20px;
   color: #3B7575;
   direction: rtl;
-  font-family: Cairo, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji !important; }
+  font-family: Changa !important; }
 
 /* End General Style */
 /* start UTILITIES Style */
@@ -54,8 +55,12 @@ span.see-more {
     transform: scale(1.03, 1.03); }
 
 .profile-icon {
-  position: relative;
+  left: 50px;
+  top: 35px;
+  position: absolute;
   cursor: pointer; }
+  .profile-icon i {
+    font-size: 25px; }
   .profile-icon .profile-dropdown-list {
     background-color: white;
     color: #3B7575;
@@ -81,6 +86,9 @@ span.see-more {
       font-size: 16px; }
       .profile-icon .profile-dropdown-list li a {
         cursor: pointer; }
+
+button {
+  border: none; }
 
 a {
   text-decoration: none !important; }

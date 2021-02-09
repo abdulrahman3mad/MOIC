@@ -3,7 +3,7 @@
 /* end general style*/
 /* Start Articles Style */
 .articles-style {
-  padding: 40px 0; }
+  padding: 100px 0 40px; }
   .articles-style form.search-form {
     display: flex;
     align-items: center;
@@ -30,6 +30,8 @@
     .articles-style .articles .article {
       margin-bottom: 60px; }
     .articles-style .articles .article .content {
+      box-shadow: 8px 8px 8px #727272;
+      background-color: white;
       overflow: hidden;
       margin-left: 50px;
       margin-bottom: 20px;
@@ -63,20 +65,38 @@
           font-size: 0.65em;
           border-radius: 10px;
           margin-bottom: 8px; }
+      .articles-style .articles .article .content .writer-info {
+        display: flex;
+        align-items: center; }
+        .articles-style .articles .article .content .writer-info .writer-img {
+          margin-top: 20px;
+          width: 27px;
+          margin-left: 10px;
+          height: 27px; }
+          .articles-style .articles .article .content .writer-info .writer-img img {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 50%; }
+        .articles-style .articles .article .content .writer-info h3 {
+          font-size: 15px;
+          margin-top: 20px; }
     .articles-style .articles .article-options {
       margin-top: 20px;
-      display: flex; }
+      display: flex;
+      position: absolute;
+      top: 115px;
+      right: 250px; }
       .articles-style .articles .article-options .options-list {
         border-radius: 5px;
         z-index: 20;
         display: flex;
         align-items: center;
         position: absolute;
-        top: 80px;
-        right: 60px;
+        top: -40px;
+        right: -3px;
         padding: 7px;
         background-color: whitesmoke;
-        box-shadow: 0 3px 5px #c3c3c3; }
+        box-shadow: 3px 3px 8px #cacaca; }
         .articles-style .articles .article-options .options-list button {
           width: 0;
           margin-left: 30px; }

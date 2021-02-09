@@ -21,40 +21,57 @@
     <header class="home-header">
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
             <div class="container">
-                <a class="navbar-brand text-center" href="Home.html"><img src="Images/Moic-logo.png" alt="Logo" />
-                </a>
-                <span class="logo-text"></span>
-
+                <div class="logo-indentity">
+                    <a class="navbar-brand text-center" href="home.html"><img src="Images/Logo.png" alt="Logo" />
+                    </a>
+                    <span class="tagline">خطوة لإحياء أمة</span>
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+
+                <ul class="list-unstyled dropdown-list d-lg-none d-xs-block">
+
+                </ul>
+
                 <div class="collapse navbar-collapse text-center " id="navbarNav">
                     <ul class="navbar-nav d-flex">
                         <li class="nav-item section-elements ">
-                            <a class="nav-link Home active-link " href="Home.html">الرئيسية</a>
+                            <a class="nav-link Home active-link " href="home.html">الرئيسية</a>
                         </li>
 
                         <li class="nav-item section-elements">
-                            <a class="nav-link" href="Articles.html">مقالاتنا</a>
+                            <a class="nav-link" href="articles.html">مقالاتنا</a>
                         </li>
 
                         <li class="nav-item publish section-elements">
-                            <a class="nav-link" href="Gallery.html">المعرض</a>
+                            <a class="nav-link" href="gallery.html">المعرض</a>
                         </li>
 
                         <li class="nav-item publish section-elements">
-                            <a class="nav-link" href="Write-article.html">اكتب</a>
+                            <a class="nav-link" href="write-article.html">اكتب</a>
                         </li>
                     </ul>
 
-                    <!--an anonymous user (doesn't login or signup yet)-->
-                    <ul class="list-unstyled">
-                        <li class="nav-item signup">
-                            <a class="nav-link" href="SignUp.html">إشتراك</a>
-                        </li>
 
+                    <!--an anonymous user (doesn't login or signup yet)-->
+                    <ul class="list-unstyled utilties">
+                        <li class="nav-item signup d-none">
+                            <a class="nav-link" href="sign-up.html">إشتراك</a>
+                        </li>
+                        <!--if he is signed in-->
+                        <li class="nav-item profile-icon d-lg-block d-none">
+                            <i class="fas fa-user"></i>
+                            <ul class="profile-dropdown-list inside-profile-dropdown-list list-unstyled d-none">
+                                <h2 class="user-name">نور</h2>
+                                <hr>
+                                <li><a href="profile.html">الصفحة الشخصية</a></li>
+                                <!--if he is an admin -->
+                                <li><a href="login.html">تسجيل خروج</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <!---->
                 </div>
