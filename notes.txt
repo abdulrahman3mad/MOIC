@@ -1,9 +1,0 @@
-
-
-
-   To Make:
-	- If a user has already sent an article, how an admin can approve it or not 
-	- How the user edit or delete it after publishing it 
-	- The pages of admin: to edit, delete articles or gallery pages
-	- To edit the current background-image or the current wisdom text
-	- the dropdown-list when clicking personal-icon 

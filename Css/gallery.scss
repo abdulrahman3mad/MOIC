@@ -7,7 +7,7 @@ $mainFontSize:20px;
 
 
 .gallery{
-    padding-top:120px;
+    padding-top:250px;
     text-align: center;
     .campaigns{
       overflow: hidden;
@@ -64,6 +64,6 @@ $mainFontSize:20px;
 }
 @media (min-width:700px){
    .campaign{
-      margin-right:15px;
+      margin-left:80px;
    }
 }
